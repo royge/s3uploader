@@ -8,21 +8,20 @@
 
 1. Install `supervisor`
 
-    `$ pip install supervisor`
-
-1. Set environment variables
-
-    ```
-    $ export AWS_REGION=<aws-region>
-    $ export AWS_ACCESS_KEY_ID=<your-access-key>
-    $ export AWS_SECRET_ACCESS_KEY=<your-secret-key>
-    $ export AWS_S3_BUCKET_NAME=<your-s3-bucket>
-    ```
+    `$ sudo apt-get install -y supervisor`
 
 1. Update script config
 
-   Edit `arcs3uploader.conf` file and provide the correct values for
-   `<directory to watch>` and `<app directory>`.
+    `$ cp arcs3uploader.conf.example arcs3uploader.conf`
+
+     Edit `arcs3uploader.conf` file and provide the correct values for ff:
+
+     `<aws region>`,
+     `<your access key`,
+     `<your secret key>`,
+     `<s3 bucket name>`,
+     `<directory to watch>`,
+     `<app directory>`
 
 1. Install requirements
 
@@ -40,7 +39,7 @@
 1. Restart `supervisor`
 
     ```
-    $ sudo supervisorctl restart arcs3uploader
+    $ sudo service supervisor restart
     ```
 
 ## Test

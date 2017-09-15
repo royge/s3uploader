@@ -1,11 +1,11 @@
 [program:arcs3uploader]
+environment=AWS_REGION=<aws region>,AWS_ACCESS_KEY_ID=<your access key>,AWS_SECRET_ACCESS_KEY=<your secret key>,AWS_S3_BUCKET_NAME=<s3 bucket name>
 command=python main.py --dir <directory to watch>
 stdout_logfile=<app directory>/logs/supervisor.log
 directory=<app directory>
-user=ubuntu
+user=root
 stopasgroup=true
 stopsignal=QUIT
 autostart=true
 autorestart=true
 redirect_stderr=true
-environment=LANG="en",LC_ALL="en",LC_LANG="en"
