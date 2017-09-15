@@ -1,4 +1,7 @@
-# Arcanys S3 File Uploader
+# Arcanys S3 File 
+
+[![pipeline status](https://gitlab.com/roye/arcs3uploader/badges/master/pipeline.svg)](https://gitlab.com/roye/arcs3uploader/commits/master)
+[![coverage report](https://gitlab.com/roye/arcs3uploader/badges/master/coverage.svg)](https://gitlab.com/roye/arcs3uploader/commits/master)
 
 ## Deployment
 
