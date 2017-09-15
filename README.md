@@ -24,10 +24,16 @@
    Edit `arcs3uploader.conf` file and provide the correct values for
    `<directory to watch>` and `<app directory>`.
 
+1. Install requirements
+
+    ```
+    $ cd arcs3uploader
+    $ pip install -r requirements/base.txt
+    ```
+
 1. Enable script
 
     ```
-    $ cd arc-s3-uploader
     $ sudo cp arcs3uploader.conf /etc/supervisor/conf.d/arcs3uploader.conf
     ```
 
@@ -35,4 +41,25 @@
 
     ```
     $ sudo supervisorctl restart arcs3uploader
+    ```
+
+## Test
+
+1. Install requirements
+
+    ```
+    $ cd arcs3uploader
+    $ pip install -r requirements/test.txt
+    ```
+
+1. Run test
+
+    ```
+    $ python -m unittest discover
+    ```
+
+1. Coverage
+
+    ```
+    $ py.test --cov=aws
     ```
