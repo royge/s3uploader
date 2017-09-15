@@ -15,7 +15,10 @@
 
 1. Update script config
 
-    `$ cp arcs3uploader.conf.example arcs3uploader.conf`
+    ```
+    $ cd arcs3uploader
+    $ cp arcs3uploader.conf.example arcs3uploader.conf
+    ```
 
      Edit `arcs3uploader.conf` file and provide the correct values for ff:
 
@@ -29,7 +32,6 @@
 1. Install requirements
 
     ```
-    $ cd arcs3uploader
     $ pip install -r requirements/base.txt
     ```
 
