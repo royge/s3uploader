@@ -38,7 +38,7 @@
 1. Enable script
 
     ```
-    $ sudo cp arcs3uploader.conf /etc/supervisor/conf.d/s3uploader.conf
+    $ sudo cp s3uploader.conf /etc/supervisor/conf.d/s3uploader.conf
     ```
 
 1. Restart `supervisor`
