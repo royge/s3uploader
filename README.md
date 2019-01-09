@@ -17,7 +17,7 @@
 
     ```
     $ cd s3uploader
-    $ cp s3uploader.conf.example arcs3uploader.conf
+    $ cp s3uploader.conf.example s3uploader.conf
     ```
 
      Edit `s3uploader.conf` file and provide the correct values for ff:
