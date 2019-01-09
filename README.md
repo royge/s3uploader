@@ -1,7 +1,7 @@
 # Arcanys S3 Uploader
 
-[![pipeline status](https://gitlab.com/roye/arcs3uploader/badges/master/pipeline.svg)](https://gitlab.com/roye/arcs3uploader/commits/master)
-[![coverage report](https://gitlab.com/roye/arcs3uploader/badges/master/coverage.svg)](https://gitlab.com/roye/arcs3uploader/commits/master)
+[![pipeline status](https://gitlab.com/roye/s3uploader/badges/master/pipeline.svg)](https://gitlab.com/roye/s3uploader/commits/master)
+[![coverage report](https://gitlab.com/roye/s3uploader/badges/master/coverage.svg)](https://gitlab.com/roye/s3uploader/commits/master)
 
 ## Deployment
 
@@ -16,11 +16,11 @@
 1. Update script config
 
     ```
-    $ cd arcs3uploader
-    $ cp arcs3uploader.conf.example arcs3uploader.conf
+    $ cd s3uploader
+    $ cp s3uploader.conf.example arcs3uploader.conf
     ```
 
-     Edit `arcs3uploader.conf` file and provide the correct values for ff:
+     Edit `s3uploader.conf` file and provide the correct values for ff:
 
      `<aws region>`,
      `<your access key`,
@@ -38,7 +38,7 @@
 1. Enable script
 
     ```
-    $ sudo cp arcs3uploader.conf /etc/supervisor/conf.d/arcs3uploader.conf
+    $ sudo cp arcs3uploader.conf /etc/supervisor/conf.d/s3uploader.conf
     ```
 
 1. Restart `supervisor`
@@ -52,7 +52,7 @@
 1. Install requirements
 
     ```
-    $ cd arcs3uploader
+    $ cd s3uploader
     $ pip install -r requirements/test.txt
     ```
 
