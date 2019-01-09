@@ -1,8 +1,5 @@
 # S3 Uploader
 
-[![pipeline status](https://gitlab.com/roye/s3uploader/badges/master/pipeline.svg)](https://gitlab.com/roye/s3uploader/commits/master)
-[![coverage report](https://gitlab.com/roye/s3uploader/badges/master/coverage.svg)](https://gitlab.com/roye/s3uploader/commits/master)
-
 ## Deployment
 
 1. Clone this repo
