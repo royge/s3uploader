@@ -2,5 +2,6 @@ language: python
 python:
   - "2.7"
 script:
+- export BOTO_CONFIG=/dev/null
 - pip install -r requirements/test.txt
 - python -m unittest discover
