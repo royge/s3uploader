@@ -1,5 +1,7 @@
 # S3 Uploader
 
+[![Build Status](https://travis-ci.org/royge/s3uploader.svg?branch=master)](https://travis-ci.org/royge/s3uploader)
+
 ## Deployment
 
 1. Clone this repo
