@@ -20,7 +20,7 @@
      Edit `s3uploader.conf` file and provide the correct values for ff:
 
      `<aws region>`,
-     `<your access key`,
+     `<your access key>`,
      `<your secret key>`,
      `<s3 bucket name>`,
      `<directory to watch>`,
